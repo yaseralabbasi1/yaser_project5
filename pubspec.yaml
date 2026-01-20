@@ -1,0 +1,64 @@
+# اسم المشروع
+name: yaser_project
+
+# وصف المشروع
+description: "متجر إلكتروني متكامل بـ Flutter + Provider + Sqflite + SharedPreferences + ImagePicker"
+
+# منع النشر على pub.dev (لأنه مشروع محلي)
+publish_to: 'none'
+
+# رقم الإصدار
+version: 1.0.0+1
+
+# البيئة المطلوبة (إصدار Dart/Flutter)
+environment:
+  sdk: ^3.4.0
+
+# ---------------------------
+# المكتبات الأساسية (Dependencies)
+# ---------------------------
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # أيقونات iOS
+  cupertino_icons: any
+
+  # مكتبة Provider لإدارة الحالة
+  provider: any
+
+  # مكتبة Sqflite للتعامل مع قاعدة البيانات SQLite
+  sqflite: any
+
+  # مكتبة Path للتعامل مع المسارات
+  path: any
+
+  # مكتبة SharedPreferences لحفظ البيانات محلياً
+  shared_preferences: any
+
+  # مكتبة ImagePicker لاختيار الصور من المعرض أو الكاميرا
+  image_picker: any
+
+# ---------------------------
+# مكتبات التطوير والاختبار
+# ---------------------------
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # قواعد lint لفحص جودة الكود
+  flutter_lints: ^3.0.1
+
+# ---------------------------
+# إعدادات Flutter
+# ---------------------------
+flutter:
+  uses-material-design: true
+
+  # تعريف الأصول (صور، أيقونات، إلخ)
+  assets:
+    - assets/placeholder_category.png
+    - assets/b.png
+    - assets/c.jpg
+    - assets/f.jpg
+    - assets/e.jpg
