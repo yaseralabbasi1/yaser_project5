@@ -1,7 +1,7 @@
 // lib/main.dart
 // هذا هو الملف الرئيسي للتطبيق، نقطة البداية.
 // هنا نهيئ Flutter ونشغل التطبيق باستخدام MyApp.
-
+//asd
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'providers/store_provider.dart';
