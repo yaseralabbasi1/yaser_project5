@@ -40,6 +40,7 @@ class ManagerDashboardScreen extends StatelessWidget {
               Tab(icon: Icon(Icons.category,color: Colors.white,), child: Text("الفئات",style:TextStyle(color: Colors.white)),),
               Tab(icon: Icon(Icons.people,color: Colors.white,),child: Text("المستخدمون",style:TextStyle(color: Colors.white)),),
             ]),
+            Text("dddddddd")
           ),
           body: const TabBarView(
             children: [
