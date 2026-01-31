@@ -108,6 +108,7 @@ class ReservationCartScreen extends StatelessWidget {
                 ],
               ),
             )
+           Text("وسام جزيييع من هنه")
           ],
         ),
       ),
